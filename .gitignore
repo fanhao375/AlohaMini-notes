@@ -1,0 +1,26 @@
+# ── 三个机器人仓（各自独立 git，单独 fork / 跟踪，不入 umbrella 笔记仓）──
+/AlohaMini/
+/AM-ARM/
+/lerobot_alohamini/
+
+# ── 二进制资料（PPTX / 图片 / 视频，本地保留，不入库当 CDN）──
+/资料/
+
+# ── 阶段门控的实验性 clone（openpi / huggingface-lerobot / SO-ARM100，用到再拉）──
+/_experiment/
+
+# ── AI / 工具本地记忆 ──
+/.codex/
+
+# ── OS / 编辑器 ──
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+.obsidian/
+
+# ── 临时 ──
+*.tmp
+*.log
+scratch/
